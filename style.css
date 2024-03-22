@@ -450,7 +450,7 @@ body {
     width: 666px;
     max-width: 65%;
     bottom: 103%;
-    z-index: 100;
+    z-index: 0;
     background: 0;
     position: absolute;
     top: auto;
@@ -749,5 +749,7 @@ h1 {
     position: absolute;
   }
 #nme {
+    text-shadow: 1px 1px 2px black;
+    color: #895d5d;
     font-family: 'baloo';
 }
