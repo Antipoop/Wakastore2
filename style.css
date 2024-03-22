@@ -375,8 +375,9 @@ body {
 }
 .g1 {
     width: 20%;
+    max-height: 70vw;
     max-width: 250px;
-    min-width: 150px;
+    min-width: 130px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -384,8 +385,9 @@ body {
 }
 .g2 {
     width: 20%;
+    max-height: 70vw;
     max-width: 250px;
-    min-width: 150px;
+    min-width: 130px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -393,8 +395,9 @@ body {
 }
 .g3 {
     width: 20%;
+    max-height: 70vw;
     max-width: 250px;
-    min-width: 150px;
+    min-width: 130px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -402,8 +405,9 @@ body {
 }
 .g4 {
     width: 20%;
+    max-height: 70vw;
     max-width: 250px;
-    min-width: 150px;
+    min-width: 130px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -411,8 +415,9 @@ body {
 }
 .g5 {
     width: 20%;
+    max-height: 70vw;
     max-width: 250px;
-    min-width: 150px;
+    min-width: 130px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 30px;
@@ -420,8 +425,9 @@ body {
 }
 .g6 {
     width: 20%;
+    max-height: 70vw;
     max-width: 250px;
-    min-width: 150px;
+    min-width: 130px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 30px;
@@ -429,8 +435,9 @@ body {
 }
 .g7 {
     width: 20%;
+    max-height: 70vw;
     max-width: 250px;
-    min-width: 150px;
+    min-width: 130px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 25px;
