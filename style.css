@@ -10,10 +10,10 @@ p {
     background: transparent;  /* опционально */
 }
 html {
-    /* scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-    -ms-overflow-style: none;
-    scrollbar-width: none; */
+    scroll-snap-type: y mandatory;
+    /* scroll-behavior: smooth; */
+    /* -ms-overflow-style: none; */
+    /* scrollbar-width: none; */
 }
 body {
     margin: 0;
