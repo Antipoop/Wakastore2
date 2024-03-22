@@ -34,6 +34,9 @@ function buy() {
                     if (this.tg.value === '') {
                       return
                     }
+                    if (this.tg.value === '@') {
+                      return
+                    }
                     let mail = this.tg.value;
             
                     if (mail[0] !== '8') {
