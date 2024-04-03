@@ -11,7 +11,7 @@ p {
 }
 html {
     scroll-snap-type: y mandatory;
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
     /* -ms-overflow-style: none; */
     /* scrollbar-width: none; */
 }
@@ -309,10 +309,12 @@ body {
     position: fixed;
     color: #9c6c6c;
     margin: 0;
-    width: 360px;
+    width: -webkit-fill-available;
+    max-width: 355px;
     top: 10px;
     height: auto;
     background: 0;
+    margin-left: 62px;
     right: 10px;
 }
 .d0 {
@@ -632,9 +634,9 @@ h1 {
     position: absolute;
   }
 #nme {
-    text-shadow: 1px 1px 2px black;
     color: #895d5d;
     font-family: 'baloo';
+    z-index: 10;
 }
 #pbtn {
     top: 0;
@@ -692,14 +694,150 @@ h1 {
 .tastebtn {
     width: 1.3rem;
     height: 1.3rem;
+    margin-top: 2px;
+    margin-bottom: 5px;
     background-color: white;
     border-radius: 28%;
     vertical-align: middle;
-    border: 1px solid #ddd;
     appearance: none;
     -webkit-appearance: none;
     outline: none;
     cursor: pointer;
     box-shadow: inset 0px 17px 13px -19px #3f3f3f;
-    border: 1.7px solid #c2c2c2;
+    border: 1.7px solid #d4d4d4;
+}
+.tastebtn:checked {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    background-color: #9c6c6c;
+    border-radius: 28%;
+    vertical-align: middle;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: inset 0px 17px 13px -19px #3f3f3f;
+    border: 1.7px solid #d4d4d4;
+}
+::placeholder {
+    z-index: 11;
+    font-family: 'inter';
+    font-size: medium;
+    color: #c7b8b8;
+}
+#adress {
+    position: absolute;
+    bottom: 10px;
+    top: auto;
+    font-family: 'inter';
+    background: 0;
+    color: white;
+    left: 10px;
+}
+#tgadress {
+    position: absolute;
+    bottom: 50px;
+    top: auto;
+    font-family: 'inter';
+    background: 0;
+    color: white;
+    left: 10px;
+    text-decoration: none; 
+}
+#tgadress2 {
+    font-family: 'inter';
+    background: 0;
+    color: #895d5d;
+    text-decoration: none; 
+}
+.menus {
+    background: 0;
+    list-style-type: none;
+    font-family: 'baloo';
+    position: inherit;
+    top: 75px;
+    padding-left: 0px;
+}
+#ts {
+    background: 0;
+    color: white;
+    margin-left: 7.5px;
+    margin-bottom: 30px;
+    font-size: -webkit-xxx-large;
+    text-decoration: none; 
+}
+#mn {
+    background: 0;
+    color: white;
+    margin-left: 7.5px;
+    margin-bottom: 30px;
+    font-size: -webkit-xxx-large;
+    text-decoration: none; 
+}
+@font-face {
+    font-family: "interr";
+    src: url("./fonts/Inter-Regular.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+.divth1 {
+    position: fixed;
+    text-align: center;
+    z-index: 13;
+    background: grey;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.divth2 {
+    display: none;
+}
+.openAge {
+    position: fixed;
+    text-align: center;
+    z-index: 13;
+    background: grey;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.closeAge {
+    display: none;
+}
+#quest {
+    background: 0;
+    font-family: 'inter';
+    font-size: xx-large;
+    margin-top: 40vh;
+}
+#yes {
+margin-right: 10%;
+width: 20%;
+border-radius: 4px;
+font-family: 'inter';
+font-size: large;
+border: 0;
+background: #9c6c6c;
+color: white;
+height: 4%;
+cursor: pointer;
+max-width: 150px;
+}
+#no {
+width: 20%;
+border-radius: 4px;
+font-family: 'inter';
+font-size: large;
+border: 0;
+background: #9c6c6c;
+color: white;
+height: 4%;
+cursor: pointer;
+max-width: 150px;
 }
